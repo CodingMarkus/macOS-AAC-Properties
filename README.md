@@ -1,10 +1,20 @@
 # macOS-AAC-Properties
+
 Print supported bitrates for AAC (LC/HE/HEv2) and various channel
 configurations.
 
-Sample output for my system:
+## Build Instructions
 
 ```
+clang -fmodules -o aacprops aacprops.m
+```
+
+
+## Sample Usage
+
+```
+# ./aacprops
+
 ==================================
 Format: AAC
 Channels: 1
