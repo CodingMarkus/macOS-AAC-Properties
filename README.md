@@ -1,5 +1,6 @@
 # macOS-AAC-Properties
-Print supported bitrates for AAC (LC/HE/HEv2) and varios channel configuration.
+Print supported bitrates for AAC (LC/HE/HEv2) and various channel
+configurations.
 
 Sample output for my system:
 
