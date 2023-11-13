@@ -2,12 +2,8 @@
 @import Foundation;
 
 static int channels[] = {
-	1,
-	2,
-	5,
-	7
+	1, 2, 5, 7
 };
-
 
 static AudioFormatID formats[] = {
 	kAudioFormatMPEG4AAC,
@@ -15,12 +11,9 @@ static AudioFormatID formats[] = {
 	kAudioFormatMPEG4AAC_HE_V2
 };
 
-
 static char * formatNames[] = {
 	"AAC", "AAC HE", "AAC HEv2"
 };
-
-
 
 #define arraySize( x ) (sizeof(x) / sizeof(*x))
 
